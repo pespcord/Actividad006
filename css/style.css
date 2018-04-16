@@ -1,0 +1,190 @@
+body {
+	margin: 0;
+	background-color: #ededed;
+	font-size: 14px;
+}
+
+.columna1, .columna2, .columna3 {
+	background-color: #fff;
+	padding: 0 2rem;
+	box-sizing: border-box;
+}
+.columna1 {
+	width: 60%;
+	float: left;
+}
+.columna2 {
+	width: 40%;
+	float: left;
+}
+.columna3 {
+	width: 100%;
+}
+.container {
+    margin: 106px auto;
+	max-width: 900px;
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 100px;
+}
+.row {
+	/*clear: both;*/
+}
+h2 {
+	color: #ef553e;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+p {
+	color: #333;
+	font-family: sans-serif;
+	font-size: 0.8rem;
+}
+.modulos {
+	margin-top: 30px;
+
+}
+.modulos.experiencia {
+	display: inline-block;	
+}
+.fechas {
+	float: left;
+	width: 10%;
+}
+.negrita {
+	font-weight: bold;
+}
+.small {
+	font-size: 0.6rem;
+}
+.parrafo-fechas {
+	float: left;
+	width: 90%;
+	margin: 10px 0;
+}
+.bg-gris {
+	box-sizing: border-box;
+	padding: 0 15px;
+	background-color: #eaeaea;
+}
+.empresas {
+	float: left;
+	width: 20%;
+}
+.parrafo-empresas {
+	float: left;
+	width: 80%;
+}
+.contacto p {
+	margin: 0;
+}
+.contacto a {
+	text-decoration: none;
+	color: #333;
+}
+.skill li {
+	list-style-type: none;
+	
+}
+ul.skill  {
+	padding: 0;
+	
+}
+.skill p {
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px;
+	margin: 5px 0;
+}
+.pynthon {
+	width: 80%;
+	background-color: #ef553e;
+}
+.html {
+	width: 60%;
+	background-color: #ef553e;
+}
+.css {
+	width: 40%;
+	background-color: #ef553e;
+}
+.js {
+	width: 30%;
+	background-color: #ef553e;
+}
+.php {
+	width: 20%;
+	background-color: #ef553e;
+}
+.estrellas {
+    float: right;
+}
+.idiomas {
+	display: initial;
+}
+.naranjo {
+	color: #ef553e;
+	font-size: 1rem;
+}
+.gris {
+	color: #666;
+	font-size: 1rem;
+}
+.linea-gris {
+width: 100%;
+border: 0.5px solid #eaeaea;
+margin: 10px 0;
+}
+.modulos.hobbies ul {
+	padding: 0;
+}
+.modulos.hobbies li {
+	display: inline-block;
+    padding: 0 10px;
+    background: #a24f68;
+}
+
+.modulos.hobbies p {
+    color: #fff;
+    font-weight: lighter;
+}
+.foto-cv {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    text-align: center;
+}
+.foto-cv img{
+	width: 200px;
+
+}
+h1 {
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	text-align: center;
+    padding: 90px 0 20px;
+	font-weight: lighter;
+}
+h1 span {
+	color: #ef553e;
+	font-weight: bold;
+}
+.titulo {
+	position: relative;
+}
+.footer {
+	width: 100%;
+}
+@media (max-width: 480px){
+	.columna1, .columna2 {
+		width: 100%;
+	}
+	h1 {
+    	padding: 90px 10px 20px;
+
+	}
+}
